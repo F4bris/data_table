@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import {DataTable} from './users/presentation/table/data-table/data-table';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, DataTable],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
